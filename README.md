@@ -4,7 +4,7 @@
 
 **Research and stress-test open-source project names, from collision checks to launch-ready decisions.**
 
-<img src="assets/banner.webp" alt="NameLens - Naming research for open-source projects" width="100%">
+<img src="skills/namelens/assets/banner.webp" alt="NameLens - Naming research for open-source projects" width="100%">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
@@ -36,6 +36,8 @@ Install the skill from this repository:
 ```bash
 npx skills add geekjourneyx/namelens
 ```
+
+The installable skill lives in `skills/namelens/` so bundled references and assets are resolved relative to the skill root.
 
 Then ask your agent to use `namelens` for a naming decision:
 
@@ -88,15 +90,17 @@ NameLens never presents preliminary research as legal or trademark clearance.
 ## Project Layout
 
 ```text
-assets/
-├── banner.svg
-├── banner.png
-└── banner.webp
-SKILL.md
-test-prompts.json
-evals/
-examples/
-references/
+skills/
+└── namelens/
+    ├── SKILL.md
+    ├── assets/
+    │   ├── banner.svg
+    │   ├── banner.png
+    │   └── banner.webp
+    ├── evals/
+    ├── examples/
+    ├── references/
+    └── test-prompts.json
 ```
 
 The skill is pure documentation. There are no runtime scripts or package dependencies in this repository.

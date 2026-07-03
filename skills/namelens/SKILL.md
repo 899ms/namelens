@@ -1,8 +1,6 @@
 ---
 name: namelens
 description: Research and stress-test open-source project names, from collision checks to launch-ready decisions. Use when the user asks to name or rename a project, compare candidate names, screen GitHub or package namespace risk, verify language or mythology claims, or improve SEO/GEO clarity. Perform live web and registry research, separate brand from category descriptor, classify collisions, and return one evidence-backed recommendation.
-license: MIT
-compatibility: Requires live web or browser access for current collision, registry, domain, handle, language-usage, and preliminary trademark checks. Without live access, generate candidates but mark all such findings UNVERIFIED.
 ---
 
 # NameLens
@@ -25,6 +23,7 @@ A clever word without research is only a hypothesis.
 - Respond in the user's language.
 - Use **Standard mode** unless the user requests a quick brainstorm or a launch-level clearance pass.
 - Extract constraints from the conversation before asking questions. Proceed with labeled assumptions when missing details are not decisive.
+- Require live web or browser access for current collision, registry, domain, handle, language-usage, and preliminary trademark checks. Without live access, generate candidates but mark all such findings **UNVERIFIED**.
 - Browse before calling a name clear, unused, available, safe, ownable, or low-collision.
 - Prefer official registries, official product pages, source repositories, reputable dictionaries, and official trademark databases.
 - Cite material collision and linguistic evidence and state the research date.

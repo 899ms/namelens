@@ -4,6 +4,13 @@ All notable changes to NameLens are documented in this file.
 
 The format follows Keep a Changelog, and this project uses semantic versioning.
 
+## [1.0.1] - 2026-07-03
+
+### Fixed
+
+- Moved the installable `namelens` skill into `skills/namelens/` so `npx skills add geekjourneyx/namelens` can resolve bundled `references/`, `assets/`, examples, evals, and test prompts relative to the skill root.
+- Updated repository documentation to point at the new skill subdirectory layout.
+
 ## [1.0.0] - 2026-06-23
 
 ### Added
